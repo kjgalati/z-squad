@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="login.aspx.cs" Inherits="Demonstration.login" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="login.aspx.cs" Inherits="Demonstration.login" %>
 
 <!DOCTYPE html>
 
@@ -67,18 +67,15 @@
 
 							        <div class="inputs">
 							        
-							            <input type="text" id="email" name="email" placeholder="Email" 
-										autofocus 
-										required
-										pattern="[a-z0-9.$-]+@[a-z0-9-]+\.[a-z]{2,16}"
-										maxlength="50" />
+
+                                        <asp:TextBox ID="email" runat="server" placeholder="Email" autofocus required pattern="[a-z0-9.$-]+@[a-z0-9-]+\.[a-z]{2,16}"></asp:TextBox>
+							           
+							       
+                                        <asp:TextBox TextMode="Password" ID="password" runat="server" placeholder="Password" required pattern="[a-zA-Z0-9-_!$]{5,15}"></asp:TextBox>
+
+                                        <asp:Button runat="server" ID="submit" Text="Login" OnClick="submit_Click" />
 							        
-							            <input type="password" id="password" name="email" placeholder="Password" 
-										required
-										pattern="[a-zA-Z0-9-_!$]{5,15}"/>
-							            							            
-							            <input type="submit" id="submit" value="LOG IN" />
-							        
+
 							        </div>
 
 							    </form>

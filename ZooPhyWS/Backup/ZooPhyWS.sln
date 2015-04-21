@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ZooPhyWS", "..\..\WebSites\ZooPhyWS", "{E2ADE67F-F150-4F17-B427-C39AE2DAE5D5}"
+	ProjectSection(WebsiteProperties) = preProject
+		SccProjectName = ""$/ZooPhy/ZooPhyWS/ZooPhyWS", EPBAAAAA"
+		SccAuxPath = ""
+		SccLocalPath = "..\.."
+		SccProvider = "MSSCCI:Microsoft Visual SourceSafe"
+		TargetFramework = "3.5"
+		Debug.AspNetCompiler.VirtualPath = "/ZooPhyWS"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\WebSites\ZooPhyWS\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\ZooPhyWS\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/ZooPhyWS"
+		Release.AspNetCompiler.PhysicalPath = "..\..\WebSites\ZooPhyWS\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\ZooPhyWS\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "58515"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 2
+		SccProjectName0 = \u0022$/ZooPhy/ZooPhyWS/ZooPhyWS\u0022,\u0020EPBAAAAA
+		SccLocalPath0 = ..\\..
+		SccProvider0 = MSSCCI:Microsoft\u0020Visual\u0020SourceSafe
+		SccProjectFilePathRelativizedFromConnection0 = Projects\\ZooPhyWS\\
+		SccWebProject1 = true
+		SccProjectUniqueName1 = ..\\..\\WebSites\\ZooPhyWS
+		SccLocalPath1 = ..\\..
+		SccProjectFilePathRelativizedFromConnection1 = WebSites\\ZooPhyWS\\
+		SccProjectEnlistmentChoice1 = 2
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Production|Any CPU = Production|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E2ADE67F-F150-4F17-B427-C39AE2DAE5D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2ADE67F-F150-4F17-B427-C39AE2DAE5D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2ADE67F-F150-4F17-B427-C39AE2DAE5D5}.Production|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2ADE67F-F150-4F17-B427-C39AE2DAE5D5}.Production|Any CPU.Build.0 = Debug|Any CPU
+		{E2ADE67F-F150-4F17-B427-C39AE2DAE5D5}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2ADE67F-F150-4F17-B427-C39AE2DAE5D5}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
